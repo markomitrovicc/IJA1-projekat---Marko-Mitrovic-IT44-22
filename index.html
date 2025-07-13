@@ -1,61 +1,79 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Apple Boutique - Welcome</title>
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="icon" href="images/logo.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    </head>
+<html lang="sr"> <!-- SEO: Dodato lang atribut za srpski jezik -->
+<head>
+    <title>Apple Boutique - Prodaja Apple uređaja</title> <!-- SEO: Dodato "prodaja Apple uređaja" -->
 
-    
-    <body>
+    <!-- SEO: Meta tagovi dodati za optimizaciju -->
+    <meta name="description" content="Apple Boutique nudi originalne Apple uređaje poput iPhone, MacBook, iPad i Apple Watch po povoljnim cenama. Brza isporuka i kvalitetna usluga.">
+    <meta name="keywords" content="apple uređaji, iphone prodaja, macbook cena, apple boutique, ipad prodaja, apple watch kupovina">
 
-        <div class="header">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
 
-            <div class="name">
-                <h1>AppleBoutique</h1>
-            </div>
+<body>
 
-            <div class="nav">
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="pages/proizvodi.html">Proizvodi</a></li>
-                    <li class="nav-item"><a href="pages/proizvodi.html">Akcije</a></li>
-                    <li class="nav-item"><a href="pages/kontakti.html">Kontakti</a></li>
-                </ul>
-            </div>
-            
+    <div class="header">
+        <div class="name">
+            <!-- SEO: h1 izmenjen da sadrži ključne reči -->
+            <h1>Dobrodošli u Apple Boutique - Prodaja Apple uređaja</h1>
         </div>
-        <div class="popusti">
-            <div class="popusti-kartica">
-                <div class="image">
-                    <img src="images/iphone14pro.jpg">
-                </div>
-                <div class="podaci">
-                    <a href="/pages/proizvodi.html"><h2 class="naziv-uredjaja">iPhone 14 PRO</h2></a>
-                    <p class="cena-uredjaja">649.99$</p>
-                </div>
+
+        <div class="nav">
+            <ul class="nav-menu">
+                <!-- SEO: anchor text može da koristi ključne reči -->
+                <li class="nav-item"><a href="pages/proizvodi.html">Apple uređaji</a></li>
+                <li class="nav-item"><a href="pages/proizvodi.html">iPhone akcije</a></li>
+                <li class="nav-item"><a href="pages/kontakti.html">Kontakt Apple Boutique</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- SEO: dodat opis sa ključnim rečima -->
+    <section class="uvodni-tekst">
+        <p>
+            Apple Boutique je specijalizovana online prodavnica originalnih Apple uređaja. Nudimo proizvode kao što su iPhone, MacBook, iPad i Apple Watch po pristupačnim cenama. Ukoliko vas zanima iPhone prodaja ili tražite najnoviji MacBook po odličnoj ceni, nalazite se na pravom mestu.
+        </p>
+    </section>
+
+    <div class="popusti">
+        <div class="popusti-kartica">
+            <div class="image">
+                <img src="images/iphone14pro.jpg" alt="iPhone 14 Pro - apple uređaj"> <!-- SEO: dodat alt tekst -->
             </div>
-            <div class="popusti-kartica">
-                <div class="image">
-                    <img src="images/macbook-pro-13.jpg">
-                </div>
-                <div class="podaci">
-                    <a href="/pages/proizvodi.html"><h2 class="naziv-uredjaja">MacBook PRO 13"</h2></a>
-                    <p class="cena-uredjaja">1449.99$</p>
-                </div>
-            </div>
-            <div class="popusti-kartica">
-                <div class="image">
-                    <img src="images/macbook-pro-16.jpg">
-                </div>
-                <div class="podaci">
-                    <a href="/pages/proizvodi.html"><h2 class="naziv-uredjaja">MacBook PRO 16"</h2></a>
-                    <p class="cena-uredjaja">2399.99$</p>
-                </div>
+            <div class="podaci">
+                <a href="/pages/proizvodi.html">
+                    <h2 class="naziv-uredjaja">iPhone 14 PRO - akcija Apple Boutique</h2> <!-- SEO: ključne reči -->
+                </a>
+                <p class="cena-uredjaja">649.99$</p>
             </div>
         </div>
-    </body>
+        <div class="popusti-kartica">
+            <div class="image">
+                <img src="images/macbook-pro-13.jpg" alt="MacBook Pro 13 - apple uređaj"> <!-- SEO:alt-->
+            </div>
+            <div class="podaci">
+                <a href="/pages/proizvodi.html">
+                    <h2 class="naziv-uredjaja">MacBook PRO 13" - odlična cena</h2> <!-- SEO -->
+                </a>
+                <p class="cena-uredjaja">1449.99$</p>
+            </div>
+        </div>
+        <div class="popusti-kartica">
+            <div class="image">
+                <img src="images/macbook-pro-16.jpg" alt="MacBook Pro 16 - apple uređaj"> <!-- SEO: alt -->
+            </div>
+            <div class="podaci">
+                <a href="/pages/proizvodi.html">
+                    <h2 class="naziv-uredjaja">MacBook PRO 16" - apple laptop</h2> <!-- SEO -->
+                </a>
+                <p class="cena-uredjaja">2399.99$</p>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
