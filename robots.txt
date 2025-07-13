@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://markomitrovicc.github.io/IJA1-projekat---Marko-Mitrovic-IT44-22/sitemap.xml
