@@ -101,13 +101,12 @@ html,body{
     font-weight: bold;
 }
 
-.popusti-kartica:hover{
-    img{
-        opacity: 0.7;
-    }
-    a{
-        color: gray;
-    }
+.popusti-kartica:hover img {
+    opacity: 0.7;
+}
+
+.popusti-kartica:hover a {
+    color: gray;
 }
 
 .body{
@@ -170,13 +169,12 @@ html,body{
     font-weight: bold;
 }
 
-.obicna-kartica:hover{
-    img{
-        opacity: 0.7;
-    }
-    a{
-        color: gray;
-    }
+.obicna-kartica:hover img {
+    opacity: 0.7;
+}
+
+.obicna-kartica:hover a {
+    color: gray;
 }
 
 .body-kontakti{
